@@ -1,0 +1,94 @@
+body,
+html {
+  padding: 0px;
+  margin: 0;
+  background: url("https://www.desktopbackground.org/download/1920x1080/2013/06/24/596943_real-outer-space-hd-wallpapers-page-3-pics-about-space_1920x1200_h.jpg");
+  color: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+;
+}
+* {
+  box-sizing: border-box;
+}
+
+.contain {
+  width: 100vw;
+  height: vh;
+}
+.row {
+  display: flex;
+  overflow-x: scroll;
+  
+}
+.row .tile {
+height: 300px;
+width: 300px;
+padding: 10px;
+}
+.tile__media img{
+  position: relative;
+  height: 190px;
+  width: 275px;
+  opacity: 100%;
+}
+
+.tile__media img:hover{
+  transform: scale(1.18);
+  overflow: visible;
+  
+}
+
+/*     OTHER STUFF BELOW               */
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+  
+  * {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.2;
+  }
+  .close:hover {
+    opacity: 2;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: red;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+  }
