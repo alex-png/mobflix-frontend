@@ -27,6 +27,8 @@ class VideosContainer extends React.Component {
     logInContainer = (user) => {
         console.log("INSIDE VIDEOCONTAINER", user)
 
+        // this is a test
+        
         this.setState(prevProps => ({ loggedIn: true, userId: user.id }))
     }
 
