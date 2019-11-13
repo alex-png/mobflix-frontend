@@ -69,3 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # mobflix-api
 # mobflix-client
 # mobflix-client
+# mobflix-client
