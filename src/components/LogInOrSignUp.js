@@ -49,7 +49,11 @@ class LogInOrSignUp extends React.Component {
 
   render() {
     return this.state.signUpClicked? <SignUpForm users={this.state.users} handleSignUpClick={this.handleSignUpClick}/>: ( 
-      <div>
+      <div style={{
+        position: "absolute",
+        bottom: "40%",
+        left: "40%"
+    }}>
       <h1>Log in!</h1>
       <form onSubmit={this.handleSubmit}>
         <input
